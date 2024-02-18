@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        roboto : ["Roboto", "sans-serif"]
+      },
+      animation : {
+        spin : "spin 7s linear infinite"
+      }
+    },
     container : {
       center : true,
       padding : "1rem",
