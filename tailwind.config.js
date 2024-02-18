@@ -10,7 +10,10 @@ export default {
         roboto : ["Roboto", "sans-serif"]
       },
       animation : {
-        spin : "spin 7s linear infinite"
+        spin : "spin 10s linear infinite"
+      },
+      colors : {
+        react : "#00d8ff"
       }
     },
     container : {
