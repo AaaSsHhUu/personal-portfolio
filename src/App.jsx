@@ -11,6 +11,7 @@ function App() {
     <main className='bg-slate-900'>
         <Navbar />
         <About />
+        <Project />
     </main>
   )
 }
