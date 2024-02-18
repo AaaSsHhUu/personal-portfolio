@@ -8,8 +8,9 @@ import Contact from './components/Contact'
 
 function App() {
   return (
-    <main>
+    <main className='bg-slate-900'>
         <Navbar />
+        <About />
     </main>
   )
 }
