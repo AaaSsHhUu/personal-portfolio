@@ -3,7 +3,7 @@ import logo from '../assets/logo.png'
 
 const Navbar = () => {
   return (
-    <section className='bg-gray-200 py-4 px-8 flex flex-col sm:flex-row justify-between items-center container sticky top-0'>
+    <section className='bg-gray-200 py-4 px-8 flex flex-col sm:flex-row justify-between items-center container sticky top-0 z-10'>
         <div className='flex items-center'>
             <img src={logo} className='rounded-full h-16 mr-2' />
             <h1 className='text-slate-900 font-serif text-5xl font-bold italic'>Ashu</h1>
