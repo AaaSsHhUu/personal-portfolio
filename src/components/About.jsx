@@ -25,7 +25,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className='flex justify-center w-full'>
+        <div className='relative -bottom-10 flex justify-center w-full'>
           <Next content={"projects"}/>
         </div>
     </section>
