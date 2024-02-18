@@ -6,7 +6,7 @@ const Navbar = () => {
     <section className='bg-gray-200 py-4 px-8 flex flex-col sm:flex-row justify-between items-center container sticky top-0'>
         <div className='flex items-center'>
             <img src={logo} className='rounded-full h-16 mr-2' />
-            <h1 className='text-black font-serif italic'>Ashu</h1>
+            <h1 className='text-slate-900 font-serif text-5xl font-bold italic'>Ashu</h1>
         </div>
         <div className='hidden sm:block mr-24'>
             <ul className='flex gap-4 flex-col justify-center sm:flex-row sm:items-center '>
