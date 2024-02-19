@@ -8,17 +8,17 @@ import { FaExternalLinkAlt , FaGithub} from "react-icons/fa";
 
 const Project = () => {
   return (
-    <section id='project' className='h-screen w-full bg-slate-800'>
+    <section id='project' className='min-h-screen w-full bg-slate-800'>
       <Heading  heading = "Projects" />
-      <div className='flex justify-center px-10'>
+      <div className='flex justify-center px-16'>
         <div className='grid sm:grid-col-2 sm:grid-rows-2 md:grid-cols-4 mt-8 gap-4'>
             {/* Card 1 */}
             <div className='p-4 bg-slate-600 rounded-lg shadow-lg hover:scale-105'>
                 <div className='w-full text-white flex flex-col items-center'>
                     <img src={gm1} className = "w-full h-70  mb-2 rounded-lg" />
-                    <p className='text-2xl my-2'>Simon Game</p>
-                    <div className='flex items-center gap-2 bg-blue-500 rounded-lg px-4 py-2 cursor-pointer hover:bg-react'>
-                      <a href="" className='pr-2 font-roboto' >Link</a>
+                    <p className='text-3xl my-2'>Simon Game</p>
+                    <div className='flex items-center text-2xl gap-2 bg-blue-500 rounded-lg px-4 py-2 cursor-pointer hover:bg-react'>
+                      <a href="" className='pr-2 py-2 font-roboto' >Link</a>
                       <FaExternalLinkAlt />
                       <FaGithub />
                     </div>
